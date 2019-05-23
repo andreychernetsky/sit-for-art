@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+	
+</head>
+<body class="page">
+
+	<article class="map">
+		<div class="map__clouse">
+			<p class="map__x">x</p>
+		</div>
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5325.075773203903!2d-4.256240449023915!3d55.864079302799375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888441f8bcc4ed5%3A0xd28f7d5a495eb8a6!2sKEVIN+WAWERU!5e0!3m2!1sru!2sua!4v1523046983715" frameborder="0" style="border:0" allowfullscreen class="map__iframe"></iframe>	 -->
+	</article>
+	<header class="head">
+
+		<!-- фиксированный header -->
+		<div class="top">
+			<div class="top__container">
+				
+				<!-- кнопка открытия меню на маленьних экранах -->
+				<div class="menu-open">
+					<div class="menu-open__global  menu-open__global_top"></div>
+					<div class="menu-open__global  menu-open__global_middle"></div>
+					<div class="menu-open__global  menu-open__global_bottom"></div>
+				</div>
+				<!-- END кнопка открытия меню на маленьних экранах -->
+
+				<!-- логотип -->
+				<div class="logo">
+					<a href="#" class="logo__link"><img src="img/logo.png" alt="illusion" class="logo__img"></a>
+				</div>
+				<!-- END логотип -->
+
+				<!-- меню навигации и поиск -->
+				<div class="top__menu">
+
+					<!-- меню навигации -->
+					<nav class="menu  menu_navigation">
+						<ul class="menu__items  menu__items_navigation">
+							<li class="menu__item  menu__item_navigation">
+								<a href="#" class="menu__link  menu__link_navigation">Home</a>
+								
+								<ul class="dropdown">
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+										
+									</li>
+								</ul>
+								
+							</li>
+							<li class="menu__item  menu__item_navigation">
+								<a href="#" class="menu__link  menu__link_navigation">Pages</a>
+								<ul class="dropdown">
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+										
+									</li>
+								</ul>
+							</li>
+							<li class="menu__item  menu__item_navigation  menu__item_navigation_selected">
+								<a href="#" class="menu__link  menu__link_navigation  menu__link_navigation_selected">Portfolio</a>
+
+								<!-- первая вложенность -->
+								<ul class="dropdown  dropdown_active">
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Classic</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Sortable grid with text</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item  dropdown__item_selected">
+										<a href="#" class="dropdown__link  dropdown__link_selected">Sortable grid without text</a>
+
+										<!-- вторая вложенность -->
+										<ul class="dropdown2  dropdown2_active">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">2 columns</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">2 columns with right sidebar</a>
+											</li>
+											<li class="dropdown2__item  dropdown2__item_selected">
+												<a href="#" class="dropdown2__link  dropdown2__link_selected">3 columns</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">3 columns with left sidebar</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">4 columns</a>
+											</li>
+										</ul>
+										<!-- END вторая вложенность -->
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Sortable masonry</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Single project pages</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+
+								</ul>
+								<!-- END первая вложенность -->
+							</li>
+							<li class="menu__item  menu__item_navigation">
+								<a href="#" class="menu__link  menu__link_navigation">Blog</a>
+								<ul class="dropdown">
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+										
+									</li>
+								</ul>
+							</li>
+							<li class="menu__item  menu__item_navigation">
+								<a href="#" class="menu__link  menu__link_navigation">Features</a>
+								<ul class="dropdown">
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+										
+									</li>
+								</ul>
+							</li>
+							<li class="menu__item  menu__item_navigation">
+								<a href="#" class="menu__link  menu__link_navigation">Shortcodes</a>
+								<ul class="dropdown">
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown__item">
+										<a href="#" class="dropdown__link">Item</a>
+
+										<ul class="dropdown2">
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+											<li class="dropdown2__item">
+												<a href="#" class="dropdown2__link">Item</a>
+											</li>
+										</ul>
+										
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- END меню наигации -->
+					
+					<!-- поиск -->
+					<div class="menu__search">
+						<form action="#" class="search">
+							<input type="search" class="search__input" placeholder="search">
+							
+							<div class="search__btn">
+								Search
+							</div>
+						</form>
+
+					</div>
+					<!-- END поиск -->
+				
+				</div>
+				<!-- END меню навигации и поиск	 -->
+
+			</div>
+		</div>
+		<!-- END фиксированный header -->
+
+		<!--<h1 class="head__h1">3 Column Sortable Masonry Portfolio</h1>
+
+		&lt;!&ndash; меню "хлебные крошки" &ndash;&gt;
+		<nav class="menu menu_bread-crumbs">
+			<ul class="menu__items  menu__items_bread-crumbs">
+				<li class="menu__item  menu__item_bread-crumbs">
+					<a href="#" class="menu__link  menu__link_bread-crumbs">Home</a>
+				</li>
+				<li class="menu__item  menu__item_bread-crumbs">
+					<a href="#" class="menu__link  menu__link_bread-crumbs">Portfolio</a>
+				</li>
+				<li class="menu__item  menu__item_bread-crumbs">
+					<a href="#" class="menu__link  menu__link_bread-crumbs">Sortable Masonry</a>
+				</li>
+				<li class="menu__item  menu__item_bread-crumbs">
+					<a href="#" class="menu__link  menu__link_bread-crumbs">3 Columns</a>
+				</li>
+			</ul>
+		</nav>
+		&lt;!&ndash; END меню "хлебные крошки" &ndash;&gt;
+
+	</header>
+	
+
+	<main class="main">
+
+		&lt;!&ndash; контейнер основной &ndash;&gt;
+		<div class="main__container">
+
+			&lt;!&ndash; меню категории картинок &ndash;&gt;
+			<nav class="menu menu_block">
+				<ul class="menu__items  menu__items_block">
+					<li class="menu__item  menu__item_block">
+						<a href="#" class="menu__link  menu__link_block menu__link_block_selected">All</a>
+					</li>
+					<li class="menu__item  menu__item_block">
+						<a href="#" class="menu__link  menu__link_block">3D</a>
+					</li>
+					<li class="menu__item  menu__item_block">
+						<a href="#" class="menu__link  menu__link_block">Illustration</a>
+					</li>
+					<li class="menu__item  menu__item_block">
+						<a href="#" class="menu__link  menu__link_block">Photography</a>
+					</li>
+					<li class="menu__item  menu__item_block">
+						<a href="#" class="menu__link  menu__link_block">Web</a>
+					</li>
+				</ul>
+			</nav>
+			&lt;!&ndash; END меню категории картинок &ndash;&gt;
+		
+			&lt;!&ndash; masonry картинки &ndash;&gt;
+			<div class="grid"> 
+				<div class="grid__item">
+					<img src="img/1.jpg" alt="" class="grid__img">
+				</div>
+				<div class="grid__item">
+					<img src="img/3.jpg" alt="" class="grid__img">
+				</div>
+				<div class="grid__item">
+					<img src="img/6.jpg" alt="" class="grid__img">
+				</div>
+				<div class="grid__item">
+					<img src="img/7.jpg" alt="" class="grid__img">
+				</div>
+				<div class="grid__item">
+					<img src="img/4.jpg" alt="" class="grid__img">
+				</div>
+				<div class="grid__item">
+					<img src="img/2.jpg" alt="" class="grid__img">
+				</div>
+				<div class="grid__item">
+					<img src="img/5.jpg" alt="" class="grid__img">
+				</div>
+			</div>
+			&lt;!&ndash; END masonry картинки &ndash;&gt;
+
+			&lt;!&ndash; кнопка &ndash;&gt;
+			<div class="main__button">
+				<div class="button button__main">
+					<a href="#" class="button__block">Load More</a>
+				</div>
+			</div>
+			&lt;!&ndash; END кнопка &ndash;&gt;
+
+		</div>
+		&lt;!&ndash; END контейнер основной &ndash;&gt;
+
+	</main>
+
+
+	<footer class="footer">
+
+		&lt;!&ndash; контейнер footer &ndash;&gt;
+		<div class="footer__container">
+
+			&lt;!&ndash; о нас &ndash;&gt;
+			<div class="about about_first">
+				<h3 class="about__h3">Shortly About Us</h3>
+				<p class="about__text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Suspendisse sollicitudin velit sed leo.</p>
+			</div>
+			&lt;!&ndash; END о нас &ndash;&gt;
+
+			&lt;!&ndash; контакты &ndash;&gt;
+			<div class="about  about_contact">
+				<h3 class="about__h3">Contact Us</h3>
+				<div class="about__container">
+					<p class="about__text  about__text_contact  about__text_contact_tell">(123)-456-7890</p>
+					<p class="about__text  about__text_contact  about__text_contact_email">info@companyname.com</p>
+					<p class="about__text  about__text_contact  about__text_contact_skype">skype.name</p>
+				</div>
+				<div class="about__container">
+					<p class="about__text  about__text_contact  about__text_contact_position">8901 Marmora Road, 
+						<br>Glasgow, D04 89GR.</p>
+					<div class="button">
+						<a href="#" class="button__block" id="openInGoogleMaps">Open in Google Maps</a>
+					</div>
+				</div>
+			</div>
+			&lt;!&ndash; END контакты &ndash;&gt;
+
+			&lt;!&ndash; на связи &ndash;&gt;
+			<div class="about about_last">
+				<h3 class="about__h3">Stay Connected</h3>
+				<p class="about__text  about__text_icon  about__text_icon_facebook">facebook</p>
+				<p class="about__text  about__text_icon  about__text_icon_twitter">twitter</p>
+				<p class="about__text  about__text_icon  about__text_icon_g">g+</p>
+				<p class="about__text  about__text_icon  about__text_icon_pinterest">pinterest</p>
+				<p class="about__text  about__text_icon  about__text_icon_dribbble">dribbble</p>
+				<p class="about__text  about__text_icon  about__text_icon_flickr">flickr</p>
+				<p class="about__text  about__text_icon  about__text_icon_youtube">youtube</p>
+				<p class="about__text  about__text_icon  about__text_icon_vimeo">vimeo</p>
+				<p class="about__text  about__text_icon  about__text_icon_instagram">instagram</p>
+				<p class="about__text  about__text_icon  about__text_icon_linkedin">linkedin</p>
+			</div>
+			&lt;!&ndash; END на связи &ndash;&gt;
+
+		</div>
+		&lt;!&ndash; END контейне footer &ndash;&gt;
+
+
+		&lt;!&ndash; версия &ndash;&gt;
+		<div class="footer__bottom">
+			<p class="footer__version">© 2014 illusion. All Rights Reserved.</p>
+		</div>
+		&lt;!&ndash; END версия &ndash;&gt;
+
+		<div class="up">
+			&uArr;
+		</div>
+
+	</footer>-->
+	
+
+
+
+
+
+<script src="libs/jquery-3.3.1.slim.min.js"></script>
+<script src="libs/masonry-docs/masonry.pkgd.js"></script>
+<script src="libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="js/common.js"></script>
+
+	
+	
+</body>
+</html>

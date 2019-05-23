@@ -1,0 +1,67 @@
+$fsize: 16px;
+$ffamily: 'Lato', sans-serif;
+$activeColor: #41bedd;
+$normalColor: #34383d;
+
+@mixin flex($align, $margin) {
+	display: flex;
+	justify-content: space-between;
+	align-items: $align;
+	margin: $margin;
+}
+
+@mixin a($color) {
+	display: block;
+	text-decoration: none;
+	color: $color;
+}
+
+@mixin element($top, $width, $height, $position) {
+	display: block;
+	position: absolute;
+	top: $top;
+	content: "";
+	width: $width;
+    height: $height;
+    background: url(../img/spritesheet.png) no-repeat $position;
+}
+
+@mixin block($padding) {
+	font-size:$fsize - 2 ;
+	line-height: $fsize - 6;
+	padding: 11.5px $padding; 
+	border: 1px solid #bdc3c7;
+}
+
+// %menu-flex {
+// 	@include flex(center, 0);
+// }
+
+// %dropdown {
+// 	position: absolute;
+// 	background-color: #fff;
+// 	text-align: left;
+// }
+
+// %dropdown-item {
+// 	display: block;
+// 	list-style: none;
+// }
+
+// %dropdown-link {
+// 	@include a($normalColor);
+// 	border: 1px solid #ecf0f1;
+// 	margin-top: -1px;
+// 	line-height: 42px;
+// 	padding-left: 18px;
+// }
+
+// %relative {
+// 	position: relative;
+// }
+
+
+
+%selected {
+	color: $activeColor;
+}
