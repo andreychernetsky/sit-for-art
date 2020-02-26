@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="127f0db9-7def-4bb0-98d4-4734a9236075" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/article.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/logo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/main-header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/main-menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/menu-btn.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/read-more-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/blocks/social.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/mixins/_font-face.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/style.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/SCSS-BEM-GULP-master.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LookME.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/sortable_portfolio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/sortable_portfolio_masonry_3columns.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/spritesheet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/stylesheet.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/ev-emitter/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/ev-emitter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/ev-emitter/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/ev-emitter/ev-emitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/imagesloaded/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/imagesloaded/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/imagesloaded/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/imagesloaded/imagesloaded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/imagesloaded/imagesloaded.pkgd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/imagesloaded/imagesloaded.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/jquery-3.3.1.slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/css/masonry-docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/extras.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/fonts/2D333F_0_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/fonts/2D333F_0_0.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/fonts/2D333F_1_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/fonts/2D333F_1_0.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/fonts/2D333F_2_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/fonts/2D333F_2_0.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/js/masonry-docs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/masonry.pkgd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/masonry-docs/options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sass/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sass/style.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="220" column="14" lean-forward="false" selection-start-line="220" selection-start-column="14" selection-end-line="220" selection-end-column="14" />
+            <state relative-caret-position="218">
+              <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -294,18 +222,18 @@
       <updated>1558635531953</updated>
       <workItem from="1558635533398" duration="65000" />
       <workItem from="1582525604496" duration="10517000" />
-      <workItem from="1582723710610" duration="50000" />
+      <workItem from="1582723710610" duration="676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10632000" />
+    <option name="totallyTimeSpent" value="11258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="110" width="1156" height="536" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30500895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30500895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -313,7 +241,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1475" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
@@ -576,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="220" column="14" lean-forward="false" selection-start-line="220" selection-start-column="14" selection-end-line="220" selection-end-column="14" />
+        <state relative-caret-position="218">
+          <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
