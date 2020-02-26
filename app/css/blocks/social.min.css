@@ -1,0 +1,17 @@
+.social {
+  margin-top: -50px;
+  display: block;
+  background: #ffc107;
+}
+
+.social__icon-vk {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  fill: #ffc222;
+  display: block;
+}
+
+.social__icon-vk:hover {
+  fill: #fff;
+}

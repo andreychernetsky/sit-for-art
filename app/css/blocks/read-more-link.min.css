@@ -1,0 +1,35 @@
+.read-more-link,
+a.read-more-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: 'League-Spartan', sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+  position: relative;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.read-more-link:after,
+a.read-more-link:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  background-color: rgba(93, 168, 239, 0.7);
+}
+
+.read-more-link .desc-text,
+a.read-more-link .desc-text {
+  color: rgba(97, 97, 97, 0.6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}

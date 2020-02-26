@@ -1,0 +1,21 @@
+.logo {
+  position: relative;
+  top: -64px;
+  left: 47%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.logo__picture {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.logo__link {
+  color: #ffc22f;
+  font-family: 'Eurofurence';
+  font-weight: normal;
+  font-size: 1.5rem;
+}

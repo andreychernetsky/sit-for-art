@@ -1,0 +1,122 @@
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.article--odd {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.article--odd .article__desc {
+  width: 515px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 515px;
+  flex: 0 0 515px;
+  padding-left: 75px;
+  padding-right: 105px;
+}
+
+.article--odd .article__preview {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 490px;
+  flex: 0 0 490px;
+}
+
+.article--odd .article__preview-desc {
+  left: -30px;
+  right: auto;
+}
+
+.article__desc {
+  width: 462px;
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 80px;
+}
+
+.article__title {
+  text-align: center;
+  color: #333333;
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0.42px;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.article__title:before {
+  content: attr(data-number);
+  color: #f9f9f9;
+  font-family: 'League-Spartan', sans-serif;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 13px;
+  position: absolute;
+  left: 0;
+  top: -17px;
+  z-index: -1;
+}
+
+.article__title:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 23px;
+  height: 2px;
+  background-color: #5da8ef;
+}
+
+.article__text {
+  margin-bottom: 60px;
+  color: rgba(97, 97, 97, 0.6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+.article__preview {
+  width: 762px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 762px;
+  flex: 0 0 762px;
+  position: relative;
+}
+
+.article__preview-desc {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+
+.article__preview-desc-content {
+  color: #0b0c11;
+  font-family: 'League-Spartan', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+  -webkit-transform: rotate(-90deg) translate(-100%, 0);
+  -ms-transform: rotate(-90deg) translate(-100%, 0);
+  transform: rotate(-90deg) translate(-100%, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+}

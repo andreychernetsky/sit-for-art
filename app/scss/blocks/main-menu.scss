@@ -1,0 +1,38 @@
+.main-menu {
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  &__list {
+    display: flex;
+    justify-content:space-around;
+    align-items: center
+  }
+  &__item {
+    min-height: 30px;
+    width:20%;
+    border: 0;
+    font-size: 14px;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    font-family:"PT Sans", "Arial", sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .main-menu__item--third {
+    margin-left:auto;
+
+  }
+  &__link {
+    text-decoration: none;
+    color:#000;
+    &:hover {
+      color: #ffc222;
+    }
+  }
+  &__link:active {
+    color: rgba(255, 255, 255, .3);
+  }
+
+}
