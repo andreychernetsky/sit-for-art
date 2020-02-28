@@ -46,6 +46,11 @@ span {
           align-items: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -60,4 +65,8 @@ span {
   margin: 10px auto;
   padding: 0 15px;
   background-color: #fff;
+}
+
+.relative {
+  position: relative;
 }
